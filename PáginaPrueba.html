@@ -16,41 +16,55 @@
     <header>
       <div class="container_header">
         <nav>
-          <a href="">INICIO</a>
-          <a href="">VIAJES</a>
-          <a href="">ESPAÑA</a>
-          <a href="">EUROPA</a>
-          <a href="">ASIA</a>
-          <a href="">AMÉRICA</a>
-          <a href="">CONTACTO</a>
+          <a href="#inicio">INICIO</a>
+          <a href="#viajes">VIAJES</a>
+          <a href="#españa">ESPAÑA</a>
+          <a href="#europa">EUROPA</a>
+          <a href="#asia">ASIA</a>
+          <a href="#america">AMÉRICA</a>
+          <a href="#contacto">CONTACTO</a>
         </nav>
       </div>
     </header>
     <main>
       <div class="contain_title">
         <div class="title">
-          <h1>Descubre los lugares más <span class= "span">bonitos</span> del mundo</h1>
+          <h1>
+            Descubre los lugares más <span class="span">bonitos</span> del mundo
+          </h1>
         </div>
       </div>
       <div class="container-form">
-        <div class="form">
-          <p class="container-form_title">Empieza ahora</p>
-          <p class="container-form_text">
-            ¡Hola, soy Andrés! he creado esta página para ayudarte a encontrar
-            sitios fabulosos donde pasar tus vacaciones. <br />
-            Para obtener consejos exclusivos de viajes, asegúrate de suscribirte
-            a mi boletín. <br />
-            ¡Feliz viaje!
-          </p>
-          <form class="form-field" action="">
-            <input class= "for_input" type="email" name="email" placeholder="Email">
-            <input class= "for_input" type="text" name="nombre" placeholder="Nombre">
-            <input class= "for_input" type="submit" value= "Suscribirme">            
-          </form>          
+        <div class="decor">
+          <div class="form">
+            <p class="container-form_title">Empieza ahora</p>
+            <p class="container-form_text">
+              ¡Hola, soy Andrés! he creado esta página para ayudarte a encontrar
+              sitios fabulosos donde pasar tus vacaciones. <br />
+              Para obtener consejos exclusivos de viajes, asegúrate de
+              suscribirte a mi boletín. <br />
+              ¡Feliz viaje!
+            </p>
+            <form class="form-field" action="">
+              <input
+                class="for_input"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+              <input
+                class="for_input"
+                type="text"
+                name="nombre"
+                placeholder="Nombre"
+              />
+              <input class="for_input" type="submit" value="Suscribirme" />
+            </form>
+          </div>
         </div>
       </div>
       <div class="container_places">
-        <div class="box_places">
+        <div id="españa" class="box_places">
           <img
             class="box_places_img"
             src="./Images/alcazar Segovia.jpg"
@@ -60,7 +74,7 @@
           <p class="caption">Castillo de Alcazar, Segovia</p>
         </div>
 
-        <div class="box_places">
+        <div id="europa" class="box_places">
           <img
             class="box_places_img"
             src="./Images/coliseo.jpg"
@@ -70,7 +84,7 @@
           <p class="caption">Coliseo, Roma</p>
         </div>
 
-        <div class="box_places">
+        <div id="asia" class="box_places">
           <img
             class="box_places_img"
             src="./Images/bagan_Myanmar.jpg"
@@ -79,7 +93,7 @@
           <p class="region">ASIA</p>
           <p class="caption">Bagan, Myanmar</p>
         </div>
-        <div class="box_places">
+        <div id="america" class="box_places">
           <img
             class="box_places_img"
             src="./Images/machupichu.jpg"
@@ -88,12 +102,30 @@
           <p class="region">AMÉRICA</p>
           <p class="caption">Machu Picchu, Perú</p>
         </div>
+        <div id="viajes" class="box_places">
+          <img
+            class="box_places_img"
+            src="./Images/viajes.jpg"
+            alt="Equipaje"
+          />
+          <p class="region">VIAJES</p>
+          <p class="caption">Consejos para viajeros</p>
+        </div>
+      </div>
+      <div id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <p>
+          Si tienes alguna consulta no dudes en contactarnos a la siguiente
+          direccion de correo
+        </p>
+        <a href="mailto:lugaresasombrosos@asombroso.com"
+          >lugaresasombrosos@asombroso.com</a
+        >
       </div>
     </main>
     <footer>
       <div class="footer">
-                <p> Copyright © 2022 | Todos los derechos reservados </p>
-
+        <p>Copyright © 2022 | AndrésUpgrader | Todos los derechos reservados</p>
       </div>
     </footer>
   </body>

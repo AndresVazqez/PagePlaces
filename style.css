@@ -66,6 +66,14 @@ nav a {
     align-items: center;        
 }
 
+.decor {
+    display: flex;
+    width: 96%;
+    height: 90%;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center; 
+}
 .form  {      
     width: 50%;
     height: 80%;
@@ -114,8 +122,10 @@ nav a {
 .box_places {    
     margin: 40px;
     border: 8px solid #83c5be; 
-    width: 300px;
-    height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 300px;
+    max-height: 300px;
     text-align: center;   
     border-radius: 10%;             
 }
@@ -153,6 +163,25 @@ nav a {
     cursor: pointer;        
 }
 
+
+.contacto {
+    text-align: center;
+    margin: 20px;    
+}
+
+.contacto h2{
+    font-family: "Marck Script";
+    font-size: 50px;
+}
+.contacto p{
+    margin: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.contacto a{
+    text-decoration: none;
+    color: red;
+}
 .footer {     
     display: flex;    
     width: 100vw;
